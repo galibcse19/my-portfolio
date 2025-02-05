@@ -32,7 +32,7 @@ const AboutMe = () => {
                             <h2 className='font-semibold text-lg text-gray-500'>Companies Work </h2>
                         </div>
                     </div>
-                     <button className="px-4 py-2 bg-white text-[#9E31F1] font-bold border-2 border-[#9E31F1] rounded-full hover:bg-gradient-to-r hover:from-[#9E31F1] hover:to-[#C82CD9] hover:text-white flex items-center "><a  href="https://drive.google.com/uc?export=download&id=1TV4V2prRVlj3uk6sjoKj0DfVrtNkKD1T"
+                     <button className="px-4 py-2 bg-white text-[#9E31F1] font-bold border-2 border-[#9E31F1] rounded-full hover:bg-gradient-to-r hover:from-[#9E31F1] hover:to-[#C82CD9] hover:text-white flex items-center "><a  href="https://drive.google.com/file/d/1nfi7LlnYQzeGuKE5eJa-J2jahGBDiFNU/view?usp=sharing"
                         className="flex items-center"
                         target='_blank'
                         download>

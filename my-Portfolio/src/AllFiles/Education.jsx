@@ -56,7 +56,6 @@ const Education = () => {
                     <div className="text-lg font-black text-[#9E31F1]">Higher Secondary Certificate</div>
                      Bangladesh Noubahini School and College Khulna
                      <h3>Sailor's Colony, Goalkhali, GPO, Khulna</h3>
-                     <h3>GPA: 4.92/5.00 (Science)</h3>
                     </div>
                     <hr />
                 </li>
@@ -79,7 +78,6 @@ const Education = () => {
                     <div className="text-lg font-black text-[#9E31F1]">Secondary School Certificate</div>
                     keshabpur pilot school and college
                     <h2>Keshabpur, Jashore, Khulna</h2>
-                    <h2>GPA: 4.86/5.00 (Science)</h2>
                     </div>
                     <hr />
                 </li>

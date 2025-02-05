@@ -5,6 +5,8 @@ import project1 from "../assets/service.png"
 import project2 from "../assets/MoviePortal1.png"
 import project3 from "../assets/gagethaven.png"
 import project4 from "../assets/eco.png"
+import pet1 from '../assets/pet2.png'
+import pet2 from '../assets/pet1.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
  
@@ -20,6 +22,40 @@ const Projects = () => {
         <div className='my-10'>
             <SharedTitle title={"My Projects"}></SharedTitle>
              <div className='lg:mx-36 md:mx-20 mx-4'>
+                <div data-aos="fade-up" className='grid lg:grid-cols-2 grid-cols-1 p-6 gap-5 bg-slate-200 rounded mb-4'>
+                    <div>
+                    <img className='mb-4' src={pet1} alt="" />
+                    <img src={pet2} alt="" />
+                    </div>
+                    <div>
+                    <h3 className='text-[#9E31F1] font-bold text-2xl'>Pet Adoption System</h3>
+                    <h2 className='text-[#9E31F1] font-bold text-xl my-2'>Features:</h2>
+                    <ul className='list-disc my-4 ml-6'>
+                        <li>API Endpoints: Provides well-structured routes for managing campaigns, users, and donations.</li>
+                        <li>Role-Based Access Control (RBAC): Differentiates between regular users and admins.</li>
+                        <li>CRUD Functionality: Supports create, read, update, and delete operations for campaigns and users.</li>
+                        <li>Authentication Middleware: Verifies user tokens for secure access to protected routes.</li>
+                        <li>Campaign Management: Handles pause/unpause and editing of donation campaigns.</li>
+                        <li>Admin Management: Allows role assignment with the "Make Admin" functionality.</li>
+                        <li>Database Optimization: Efficiently handles queries and indexing with MongoDB.</li>
+                        <li>Error Handling: Implements structured error responses for invalid requests.</li>
+                        <li>CORS Integration: Ensures smooth communication between the client and server across origins.</li>
+                        <li>Environment Configuration: Uses .env for managing sensitive data like API keys and database credentials.</li>
+                    </ul>
+                    <h2><span className='text-[#9E31F1] font-bold text-xl mt-4'>Tools:</span> React.js, TailwindCSS, Express.js, MongoDB, React Router, Firebase</h2>
+                    <div className='flex lg:gap-5 md:gap-5 gap-1 my-4'>
+                        <button className="px-4 py-2 bg-white font-bold border-2 border-white rounded hover:bg-gradient-to-r hover:from-[#9E31F1] hover:to-[#C82CD9] text-[#9E31F1] hover:text-white flex items-center">
+                            <a href="https://pet-adoption-ba487.web.app/" className="flex items-center" target="_blank" >Live Site</a>
+                        </button>
+                        <button className="px-4 py-2 bg-white font-bold border-2 border-white rounded hover:bg-gradient-to-r hover:from-[#9E31F1] hover:to-[#C82CD9] text-[#9E31F1] hover:text-white flex items-center">
+                            <a href="https://github.com/galibcse19/Pet-Adoption-Client" className="flex items-center" target="_blank" >Client Repo</a>
+                        </button>
+                        <button className="px-4 py-2 bg-white font-bold border-2 border-white rounded hover:bg-gradient-to-r hover:from-[#9E31F1] hover:to-[#C82CD9] text-[#9E31F1] hover:text-white flex items-center">
+                            <a href="https://github.com/galibcse19/Pet-Adoption-Server" className="flex items-center" target="_blank" >Server Repo</a>
+                        </button>
+                    </div>
+                    </div>
+                </div>
                 <div data-aos="fade-up" className='grid lg:grid-cols-2 grid-cols-1 p-6 gap-5 bg-slate-200 rounded'>
                     <img src={project1} alt="" />
                     <div>
