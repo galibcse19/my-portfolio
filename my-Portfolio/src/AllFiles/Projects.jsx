@@ -7,6 +7,7 @@ import project3 from "../assets/gagethaven.png"
 import project4 from "../assets/eco.png"
 import pet1 from '../assets/pet2.png'
 import pet2 from '../assets/pet1.png'
+import sms from '../assets/sms.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
  
@@ -53,6 +54,33 @@ const Projects = () => {
                         <button className="px-4 py-2 bg-white font-bold border-2 border-white rounded hover:bg-gradient-to-r hover:from-[#9E31F1] hover:to-[#C82CD9] text-[#9E31F1] hover:text-white flex items-center">
                             <a href="https://github.com/galibcse19/Pet-Adoption-Server" className="flex items-center" target="_blank" >Server Repo</a>
                         </button>
+                    </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" className='grid lg:grid-cols-2 grid-cols-1 p-6 gap-5 bg-slate-200 mb-5 rounded'>
+                    <img src={sms} alt="" />
+                    <div>
+                    <h3 className='text-[#9E31F1] font-bold text-2xl'>Sales Management and Mainteance System</h3>
+                    <h2 className='text-[#9E31F1] font-bold text-xl my-2'>Features:</h2>
+                    <ul className='list-disc my-4 ml-6'>
+                        <li>Product Management: Add, update, and delete products with real-time inventory tracking.</li>
+                        <li>Role-Based Access Control (RBAC): Differentiates between regular users and admins.</li>
+                        <li>CRUD Functionality: Supports create, read, update, and delete operations for campaigns and users.</li>
+                        <li>Authentication Middleware: Verifies user tokens for secure access to protected routes.</li>
+                        <li>Sales Tracking: Monitor sales transactions, generate invoices, and track revenue.
+                        </li>
+                        <li>Customer Management: Store customer details and order history for better service.</li>
+                        <li>Database Optimization: Efficiently handles queries and indexing with MongoDB.</li>
+                    </ul>
+                    <h2><span className='text-[#9E31F1] font-bold text-xl mt-4'>Tools:</span> React.js, TailwindCSS, Express.js, MongoDB, React Router, Firebase</h2>
+                    <div className='flex lg:gap-5 md:gap-5 gap-1 my-4'>
+                        <button className="px-4 py-2 bg-white font-bold border-2 border-white rounded hover:bg-gradient-to-r hover:from-[#9E31F1] hover:to-[#C82CD9] text-[#9E31F1] hover:text-white flex items-center">
+                            <a href="https://sales-master-69d0a.web.app/" className="flex items-center" target="_blank" >Live Site</a>
+                        </button>
+                        <button className="px-4 py-2 bg-white font-bold border-2 border-white rounded hover:bg-gradient-to-r hover:from-[#9E31F1] hover:to-[#C82CD9] text-[#9E31F1] hover:text-white flex items-center">
+                            <a href="/" className="flex items-center" target="_blank" >Repository Restricted</a>
+                        </button>
+                         
                     </div>
                     </div>
                 </div>
